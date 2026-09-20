@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Dhairya - Premium Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #fff8f0, #ffe5d9);
+      color: #333;
+    }
+
+    header {
+      background: #b22222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+ 	
+  #hero {
+    background: url('images/hero.jpg') center/cover no-repeat;
+    color: black;   /* Changed from white to black */
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 0 0 50% 50% / 20%;
+  }
+
+
+    #gallery img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    #gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      display: inline-block;
+      background: #b22222;
+      color: white;
+      padding: 14px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .btn:hover {
+      background: #8b1a1a;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Cafe Dhairya</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#faq">FAQs</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h2>Authentic Flavors, Modern Dining</h2>
+    <p>Experience the best dishes crafted with love.</p>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <ul>
+      <li>Paneer Tikka - ₹250</li>
+      <li>Butter Chicken - ₹350</li>
+      <li>Chocolate Lava Cake - ₹180</li>
+    </ul>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faq">
+    <h2>FAQs</h2>
+    <p><strong>Do you offer home delivery?</strong> Yes, within 5 km radius.</p>
+    <p><strong>Are vegetarian options available?</strong> Absolutely, we have a wide range.</p>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <blockquote>"Best butter chicken in town!" – Rohan</blockquote>
+    <blockquote>"Loved the cozy ambience." – Priya</blockquote>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Food Gallery</h2>
+    <img src="images/dish1.jpg" alt="Paneer Tikka">
+    <img src="images/dish2.jpg" alt="Butter Chicken">
+    <img src="images/dessert.jpg" alt="Chocolate Lava Cake">
+  </section>
+
+  <!-- Reservations -->
+  <section id="review">
+    <h2>Reviews</h2>
+    <p>Click below to give us an online review.</p>
+    <a href="https://forms.gle/dRNs7r4KZJoMY6tz9" target="_blank" class="btn">Give a review</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@cafedhairya.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Address: 123 Food Street, Mumbai</p>
+    <iframe src="https://maps.google.com/maps?q=Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Cafe Dhairya. All rights reserved.</p>
+  </footer>
+</body>
+</html>
